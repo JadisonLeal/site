@@ -1,0 +1,15 @@
+
+
+/* Responsivo para telas menores */
+@media (max-width: 860px) {
+  .carousel {
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel {
+    height: 180px;
+  }
+}
+
