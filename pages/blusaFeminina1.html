@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="/site/Ecomerce/style/card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand fonte-titulo cor-especial" href="index.html"><img src="../image/logo.png" width="50px" alt="Logo da amazon"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline">
+                <input class="form-control mr-sm-0 input-header" type="search" placeholder="pesquisar" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><img src="../image/pesquisa-icon.png" width="20px" alt=""></button>
+            </form>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            roupas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Masculina</a>
+                            <a class="dropdown-item" href="#">Feminina</a>
+                            <a class="dropdown-item" href="#">Infantil</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            calçados
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Masculino</a>
+                            <a class="dropdown-item" href="#">Feminino</a>
+                            <a class="dropdown-item" href="#">Infantil</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            acessórios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Colar</a>
+                            <a class="dropdown-item" href="#">Pulseira</a>
+                            <a class="dropdown-item" href="#">Brinco</a>
+                        </div>
+                    </li>
+                    <li><a class="nav-item nav-link" href="#">quem somos</a></li>
+                    <li><a class="nav-item nav-link" data-toggle="modal" data-target="#modal-contato" href="#">contato</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="span-perfil">perfil</span> <img class="img-perfil" src="../image/perfil.png" width="35px" alt="perfil">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#"></a>
+                            <a class="dropdown-item" href="#"><img src="../image/login-dropdown.png" width="20px" alt=""> Login</a>
+                            <a class="dropdown-item" href="#"><img src="../image/cadastro-dropdown.png" width="20px" alt=""> Cadastrar</a>
+                            <a class="dropdown-item" href="#"><img src="../image/configuracoes.png" width="20px" alt=""> Configurações</a>
+                        </div>
+                    </li>
+                    <li><a class="navbar-brand fonte-titulo cor-especial" href="#"><img class="img-carrinho" src="../image/carrinho.png" width="35px" alt="carrinho compras"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- seção feminina -->
+    <main>
+    <div class="card-container">
+        <div class="card-img-wrapper">
+            <div class="card-img-container">
+                <img width="180px" src="https://i.pinimg.com/originals/06/0d/6c/060d6c19e4142898a39f66d59bb2e041.jpg" class="card-img-item" alt="">
+                <img width="180px" src="/site/Ecomerce/image/modelo3.png" class="card-img-item" alt="">
+                <img width="180px" src="/site/Ecomerce/image/modelo2.png" class="card-img-item" alt="">
+                <img width="180px" src="/site/Ecomerce/image/modelo1.png" class="card-img-item" alt=""> 
+            </div>
+            <img src="https://i.pinimg.com/originals/06/0d/6c/060d6c19e4142898a39f66d59bb2e041.jpg" class="card-img-item-top card-img-posicao" alt="">
+        </div> 
+        <div>
+            <h1 class="card-title card-preco-antigo"></h1>
+            <div class="card-preco">
+                <span class="card-preco-atual">R$ 59,90</span>
+                <span class="card-preco-antigo">R$ 79,90</span>  
+                <span class="card-preco-desconto">20% desc</span>
+            </div>
+            <p class="card-text">Blusa feminina de algodão, confortável e estilosa, perfeita para o dia a dia.</p>
+           <div class="card-span">
+            <span class="card-span-tamanho">Tamanho: </span>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-outline-dark">
+                    <input type="radio" name="tamanho" id="tamanhoP" autocomplete="off" value="P"> P
+                </label>
+                <label class="btn btn-outline-dark">
+                    <input type="radio" name="tamanho" id="tamanhoM" autocomplete="off" value="M"> M
+                </label>
+                <label class="btn btn-outline-dark">
+                    <input type="radio" name="tamanho" id="tamanhoG" autocomplete="off" value="G"> G
+                </label>
+                <label class="btn btn-outline-dark">
+                    <input type="radio" name="tamanho" id="tamanhoGG" autocomplete="off" value="GG"> GG
+                </label>
+            </div>
+            </div>
+        <div class="card-span">
+                <span class="card-span-cor">Cor: </span>
+                <span class="card-span-cor-opcao">Preto e Branco</span>  
+                <img width="60px" src="https://i.pinimg.com/originals/06/0d/6c/060d6c19e4142898a39f66d59bb2e041.jpg" class="card-img-item" alt="">     
+        </div>
+    </div>  
+    </main>
+  <footer class="bg-body-tertiary text-center">
+  <div class="container p-4 pb-0">
+    <section class="mb-4">
+    <a href="https://facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/in/jadisonleal99/" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    <a href="https://github.com/JadisonLeal/" class="fa fa-github"></a>
+    </section>
+  </div>
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2025 Criado por:
+    <a class="text-body" href="https://www.linkedin.com/in/jadisonleal99/">Jadison Leal</a>
+  </div>
+  </footer>
+    
+    <!-- Scripts necessários para Bootstrap Dropdown -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src=""></script>
+</body>
+</html>
